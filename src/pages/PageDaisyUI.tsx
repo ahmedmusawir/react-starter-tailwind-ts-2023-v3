@@ -1,12 +1,12 @@
-import React from 'react';
-import { Container, Row, Box } from '../components';
+import React from "react";
+import { Container, Row, Box } from "../components/layouts";
 
 function PageTwo() {
   return (
-    <Container twClasses={''} FULL={false} pageTitle={'PageTwo'}>
-      <Row twClasses={'prose text-center'}>
+    <Container className={""} FULL={false} pageTitle={"PageTwo"}>
+      <Row className={"prose text-center"}>
         <h3>Testing Daisy UI Buttons</h3>
-        <Box twClasses={'grid gap-2'}>
+        <Box className={"grid gap-2"}>
           <button className="btn">Button</button>
           <button className="btn btn-primary">Button</button>
           <button className="btn btn-secondary">Button</button>
@@ -15,16 +15,16 @@ function PageTwo() {
           <button className="btn btn-link">Button</button>
         </Box>
       </Row>
-      <Row twClasses={'prose text-center'}>
+      <Row className={"prose text-center"}>
         <h3>Testing Daisy UI Buttons</h3>
-        <Box twClasses={'grid gap-2 grid-auto-fit'}>
+        <Box className={"grid gap-2 grid-auto-fit"}>
           <button className="btn btn-outline">Button</button>
           <button className="btn btn-outline btn-primary">Button</button>
           <button className="btn btn-outline btn-secondary">Button</button>
           <button className="btn btn-outline btn-accent">Button</button>
         </Box>
       </Row>
-      <Row twClasses={'prose text-center'}>
+      <Row className={"prose text-center"}>
         <h3>Testing Daisy UI Modal</h3>
         {/* The button to open modal */}
         <label htmlFor="my-modal" className="btn">

@@ -1,6 +1,7 @@
-import React from 'react';
-import './PageOne.scss';
-import { Row } from '../components';
+import React from "react";
+import "./PageOne.scss";
+import { Row } from "../components/layouts";
+
 function PageOne() {
   return (
     <>

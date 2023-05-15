@@ -1,11 +1,11 @@
-import React from 'react';
-import { Container, Row, Box } from '../components';
-import './Home.scss';
+import React from "react";
+import { Container, Row, Box } from "../components/layouts";
+import "./Home.scss";
 
-const Page = () => {
+const HomePage = () => {
   return (
-    <Container twClasses={''} FULL={false} pageTitle={'Home'}>
-      <Row twClasses={'prose'}>
+    <Container className={""} FULL={false} pageTitle={"Home"}>
+      <Row className={"prose"}>
         <h1 className="h1">This could be a starting point ...</h1>
         <h2 className="h2">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit
@@ -31,9 +31,9 @@ const Page = () => {
           Iure.
         </p>
       </Row>
-      <Row twClasses={'prose flex flex-wrap justify-around'}>
+      <Row className={"prose flex flex-wrap justify-around"}>
         {/* p-5 CLASS WILL BREAK EVERYTHING */}
-        <Box twClasses={'p-3 w-[32rem]'}>
+        <Box className={"p-3 w-[32rem]"}>
           <h3>This is box one w/ prose class</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
@@ -42,7 +42,7 @@ const Page = () => {
             nulla libero doloremque non commodi tempore.
           </p>
         </Box>
-        <Box twClasses={'p-3 w-[32rem]'}>
+        <Box className={"p-3 w-[32rem]"}>
           <h3>This is box two w/ prose class</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
@@ -52,9 +52,9 @@ const Page = () => {
           </p>
         </Box>
       </Row>
-      <Row twClasses={'prose-2xl grid gap-3 grid-auto-fit'}>
+      <Row className={"prose-2xl grid gap-3 grid-auto-fit"}>
         {/* p-5 CLASS WILL BREAK EVERYTHING */}
-        <Box twClasses={'p-4'}>
+        <Box className={"p-4"}>
           <h4>This is 2nd Box One w/ prose 2xl class</h4>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
@@ -63,7 +63,7 @@ const Page = () => {
             quo. Iure.
           </p>
         </Box>
-        <Box twClasses={'p-4'}>
+        <Box className={"p-4"}>
           <h4>This is 2nd Box Two w/ prose 2xl class</h4>
 
           <p>
@@ -78,4 +78,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default HomePage;
